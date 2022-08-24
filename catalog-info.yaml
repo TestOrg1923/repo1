@@ -7,6 +7,6 @@ metadata:
     - nodejs
     - backend
 spec:
-  type: service1
+  type: service
   lifecycle: dev
   owner: team1
