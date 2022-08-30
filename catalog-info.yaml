@@ -6,8 +6,8 @@ metadata:
   tags:
     - nodejs
     - backend
-    annotations:
-      sonarqube.org/project-key: sqp_e489e5f1b7e1c0613c8c54f64ece6040daaca06d
+  annotations:
+    sonarqube.org/project-key: sqp_e489e5f1b7e1c0613c8c54f64ece6040daaca06d
 spec:
   type: service
   lifecycle: dev
