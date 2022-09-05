@@ -4,11 +4,15 @@ metadata:
   name: service1
   description: This is another demo service
   tags:
-    - nodejs
-    - backend
+    - java
+    - spring
   annotations:
     sonarqube.org/project-key: TestOrg1923_repo1
+    backstage.io/kubernetes-id: storage
 spec:
   type: service
   lifecycle: dev
   owner: team1
+  system: Multifornecedor
+  dependsOn:
+    - resource:BlobStorage
