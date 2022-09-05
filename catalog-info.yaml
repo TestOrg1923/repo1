@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: service1
+  name: storage
   description: This is another demo service
   tags:
     - java
